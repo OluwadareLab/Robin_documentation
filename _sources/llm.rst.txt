@@ -1,8 +1,0 @@
-Large Language Model (LLM)
-==========================
-
-We have included GPT 3.5 and GPT 4.0. User can use with their api key after uploading all the data. User can ask to generate different types of plots similar to chat gpt app. 
-    1. Provide openai api key and select model (e.g. gpt 3.5)
-        .. image:: ./_static/img/api_key.png
-    2. Select uploaded data to be used by ai assistant (e.g. binVsRes) and type your instruction (e.g. plot average bin size vs resolution)
-        .. image:: ./_static/img/msg.png
