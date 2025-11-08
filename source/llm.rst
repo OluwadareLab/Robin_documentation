@@ -6,8 +6,12 @@ We have included GPT model and Jupyter Notebook. Users can ask to generate diffe
    * Users can generate plots with their own interests using their uploaded dataset, even if those plots are not provided by default in Robin.  
    * Users can edit the AI-generated code using the integrated Jupyter Notebook.  
    * To get your OpenAI API Key, please follow `the instructions at this link <https://www.maisieai.com/help/how-to-get-an-openai-api-key-for-chatgpt>`_
-      .. video:: ./_static/video/ai.mp4
-         :width: 640
+
+   .. raw:: html
+
+      <video controls style="max-width:100%; height:auto;">
+         <source src="_static/video/ai.mp4" type="video/mp4">
+      </video>
 
 Use your own AI agent
 ---------------------
@@ -15,6 +19,8 @@ Use your own AI agent
 If you want to use result data with your own AI agent, we provide a results download option. To download the results file:
    1. Select your result data, e.g., `remData`.
    2. Press the `Download Selected` button.
+
       .. image:: ./_static/image/download_result.png
+
    3. You will see a `*.json` file.
    4. Upload the downloaded data into your AI agent and analyze it your own way.
